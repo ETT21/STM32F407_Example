@@ -1,0 +1,1092 @@
+{
+  "name": "Project",
+  "type": "ARM",
+  "dependenceList": [],
+  "srcDirs": [],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": [
+      {
+        "name": "app",
+        "files": [
+          {
+            "path": "../app/main.c"
+          },
+          {
+            "path": "../app/main.h"
+          },
+          {
+            "path": "../app/stm32f4xx_it.c"
+          },
+          {
+            "path": "../app/stm32f4xx_it.h"
+          }
+        ],
+        "folders": [
+          {
+            "name": "task",
+            "files": [
+              {
+                "path": "../app/task/freertos_demo.c"
+              },
+              {
+                "path": "../app/task/freertos_demo.h"
+              }
+            ],
+            "folders": []
+          }
+        ]
+      },
+      {
+        "name": "driver",
+        "files": [],
+        "folders": [
+          {
+            "name": "LED",
+            "files": [
+              {
+                "path": "../driver/LED/LED.c"
+              },
+              {
+                "path": "../driver/LED/LED.h"
+              }
+            ],
+            "folders": []
+          },
+          {
+            "name": "LCD",
+            "files": [
+              {
+                "path": "../driver/LCD/lcd.c"
+              },
+              {
+                "path": "../driver/LCD/lcd.h"
+              },
+              {
+                "path": "../driver/LCD/lcdfont.h"
+              }
+            ],
+            "folders": []
+          },
+          {
+            "name": "SRAM",
+            "files": [
+              {
+                "path": "../driver/SRAM/sram.c"
+              },
+              {
+                "path": "../driver/SRAM/sram.h"
+              }
+            ],
+            "folders": []
+          },
+          {
+            "name": "TIMER",
+            "files": [
+              {
+                "path": "../driver/TIMER/btim.c"
+              },
+              {
+                "path": "../driver/TIMER/btim.h"
+              }
+            ],
+            "folders": []
+          },
+          {
+            "name": "KEY",
+            "files": [
+              {
+                "path": "../driver/KEY/key.c"
+              },
+              {
+                "path": "../driver/KEY/key.h"
+              }
+            ],
+            "folders": []
+          },
+          {
+            "name": "delay",
+            "files": [
+              {
+                "path": "../driver/delay/delay.c"
+              },
+              {
+                "path": "../driver/delay/delay.h"
+              }
+            ],
+            "folders": []
+          },
+          {
+            "name": "usart",
+            "files": [
+              {
+                "path": "../driver/usart/usart.c"
+              },
+              {
+                "path": "../driver/usart/usart.h"
+              }
+            ],
+            "folders": []
+          }
+        ]
+      },
+      {
+        "name": "Middlewares",
+        "files": [],
+        "folders": [
+          {
+            "name": "MALLOC",
+            "files": [
+              {
+                "path": "../middleware/MALLOC/malloc.c"
+              },
+              {
+                "path": "../middleware/MALLOC/malloc.h"
+              }
+            ],
+            "folders": []
+          },
+          {
+            "name": "XMRAM",
+            "files": [
+              {
+                "path": "../middleware/XMRAM/XMRAM.h"
+              },
+              {
+                "path": "../middleware/XMRAM/XMRAM.lib"
+              }
+            ],
+            "folders": []
+          }
+        ]
+      },
+      {
+        "name": "bsp",
+        "files": [],
+        "folders": []
+      },
+      {
+        "name": "config",
+        "files": [],
+        "folders": []
+      },
+      {
+        "name": "core",
+        "files": [],
+        "folders": [
+          {
+            "name": "CMSIS",
+            "files": [
+              {
+                "path": "../core/CMSIS/Include/cmsis_armcc.h"
+              },
+              {
+                "path": "../core/CMSIS/Include/cmsis_armclang.h"
+              },
+              {
+                "path": "../core/CMSIS/Include/cmsis_compiler.h"
+              },
+              {
+                "path": "../core/CMSIS/Include/cmsis_version.h"
+              },
+              {
+                "path": "../core/CMSIS/Include/core_cm4.h"
+              },
+              {
+                "path": "../core/CMSIS/Include/mpu_armv7.h"
+              },
+              {
+                "path": "../core/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h"
+              },
+              {
+                "path": "../core/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h"
+              },
+              {
+                "path": "../core/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h"
+              },
+              {
+                "path": "../core/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c"
+              },
+              {
+                "path": "../core/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f407xx.s"
+              }
+            ],
+            "folders": []
+          },
+          {
+            "name": "HAL",
+            "files": [],
+            "folders": [
+              {
+                "name": "src",
+                "files": [
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dfsdm.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dsi.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpsmbus_ex.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc_ex.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_mmc.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_msp.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smbus.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_crc.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dac.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_dma2d.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_exti.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmc.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fmpi2c.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_gpio.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_i2c.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_lptim.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_pwr.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rcc.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rng.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_rtc.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_spi.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_tim.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usart.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c"
+                  }
+                ],
+                "folders": []
+              },
+              {
+                "name": "inc",
+                "files": [
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32_assert.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_conf.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_crc.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cryp.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cryp_ex.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dcmi.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dcmi_ex.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dfsdm.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma2d.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dsi.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_eth.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_fmpi2c.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_fmpi2c_ex.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_fmpsmbus.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_fmpsmbus_ex.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hash.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hash_ex.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2s.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2s_ex.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_irda.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_iwdg.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_lptim.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_ltdc.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_ltdc_ex.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_mmc.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_nand.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_nor.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pccard.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_qspi.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rtc_ex.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sai.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sai_ex.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sd.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sdram.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_smartcard.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_smbus.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spdifrx.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_usart.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_wwdg.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_cortex.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_crc.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dac.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma2d.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fmc.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fmpi2c.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_iwdg.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_lptim.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_pwr.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rng.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rtc.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_sdmmc.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_spi.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_utils.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_wwdg.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/Legacy/stm32f4xx_hal_can_legacy.h"
+                  },
+                  {
+                    "path": "../core/STM32F4xx_HAL_Driver/Inc/Legacy/stm32f4xx_hal_eth_legacy.h"
+                  }
+                ],
+                "folders": []
+              }
+            ]
+          },
+          {
+            "name": "system",
+            "files": [
+              {
+                "path": "../core/system/system_hal.c"
+              },
+              {
+                "path": "../core/system/system_hal.h"
+              }
+            ],
+            "folders": []
+          }
+        ]
+      },
+      {
+        "name": "os",
+        "files": [],
+        "folders": [
+          {
+            "name": "FreeRTOS",
+            "files": [
+              {
+                "path": "../os/FreeRTOS/FreeRTOSConfig.h"
+              }
+            ],
+            "folders": [
+              {
+                "name": "port",
+                "files": [
+                  {
+                    "path": "../os/FreeRTOS/portable/MemMang/heap_4.c"
+                  },
+                  {
+                    "path": "../os/FreeRTOS/portable/RVDS/ARM_CM4F/port.c"
+                  },
+                  {
+                    "path": "../os/FreeRTOS/portable/RVDS/ARM_CM4F/portmacro.h"
+                  }
+                ],
+                "folders": []
+              },
+              {
+                "name": "core",
+                "files": [
+                  {
+                    "path": "../os/FreeRTOS/croutine.c"
+                  },
+                  {
+                    "path": "../os/FreeRTOS/event_groups.c"
+                  },
+                  {
+                    "path": "../os/FreeRTOS/list.c"
+                  },
+                  {
+                    "path": "../os/FreeRTOS/queue.c"
+                  },
+                  {
+                    "path": "../os/FreeRTOS/stream_buffer.c"
+                  },
+                  {
+                    "path": "../os/FreeRTOS/tasks.c"
+                  },
+                  {
+                    "path": "../os/FreeRTOS/timers.c"
+                  }
+                ],
+                "folders": []
+              }
+            ]
+          },
+          {
+            "name": "os_wapper",
+            "files": [],
+            "folders": []
+          }
+        ]
+      },
+      {
+        "name": "utility",
+        "files": [],
+        "folders": []
+      },
+      {
+        "name": "test",
+        "files": [],
+        "folders": []
+      },
+      {
+        "name": "tool",
+        "files": [],
+        "folders": []
+      }
+    ]
+  },
+  "outDir": "build",
+  "deviceName": null,
+  "packDir": ".pack/Keil/STM32F4xx_DFP.2.14.0",
+  "miscInfo": {
+    "uid": "4e4b5e6b42ebb77e6df5af9b7d775d4b"
+  },
+  "targets": {
+    "Debug": {
+      "excludeList": [],
+      "toolchain": "AC5",
+      "compileConfig": {
+        "cpuType": "Cortex-M4",
+        "floatingPointHardware": "single",
+        "useCustomScatterFile": true,
+        "scatterFilePath": "./build/Debug/Project.sct",
+        "storageLayout": {
+          "RAM": [
+            {
+              "tag": "IRAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x20000000",
+                "size": "0x20000"
+              },
+              "isChecked": true,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x10000000",
+                "size": "0x10000"
+              },
+              "isChecked": false,
+              "noInit": false
+            }
+          ],
+          "ROM": [
+            {
+              "tag": "IROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x08000000",
+                "size": "0x100000"
+              },
+              "isChecked": true,
+              "isStartup": true
+            }
+          ]
+        },
+        "options": "null",
+        "archExtensions": ""
+      },
+      "uploader": "JLink",
+      "uploadConfig": {
+        "bin": "./build/Debug/Project.hex",
+        "baseAddr": "",
+        "cpuInfo": {
+          "vendor": "ST",
+          "cpuName": "STM32F407ZG"
+        },
+        "proType": 1,
+        "speed": 8000,
+        "otherCmds": ""
+      },
+      "uploadConfigMap": {},
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          ".",
+          "../app",
+          "../driver",
+          "../middleware",
+          "../utility",
+          "../bsp",
+          "../config",
+          "../os",
+          "../app/task",
+          "../core/CMSIS/Device/ST/STM32F4xx/Include",
+          "../core/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm",
+          "../core/CMSIS/Device/ST/STM32F4xx/Source/Templates",
+          "../core/CMSIS/Include",
+          "../core/sys",
+          "../driver/delay",
+          "../driver/KEY",
+          "../driver/LCD",
+          "../driver/LED",
+          "../driver/usart",
+          "../middleware/MALLOC",
+          "../os/FreeRTOS/include",
+          "../os/FreeRTOS/portable/MemMang",
+          "../os/FreeRTOS/portable/RVDS/ARM_CM4F",
+          "../os/FreeRTOS",
+          "../os/os_warpper",
+          "../driver/SRAM",
+          "../driver/TIMER",
+          "../core/STM32F4xx_HAL_Driver/Inc",
+          "../core/STM32F4xx_HAL_Driver/Src"
+        ],
+        "libList": [
+          "../app/task",
+          "../app",
+          "../bsp",
+          "../config",
+          "../core/CMSIS/Device/ST/STM32F4xx/Include",
+          "../core/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm",
+          "../core/CMSIS/Device/ST/STM32F4xx/Source/Templates",
+          "../core/CMSIS/Include",
+          "../core/sys",
+          "../driver/delay",
+          "../driver/KEY",
+          "../driver/LCD",
+          "../driver/LED",
+          "../driver/SRAM",
+          "../driver/TIMER",
+          "../driver/usart",
+          "../middleware/MALLOC",
+          "../os/FreeRTOS/include",
+          "../os/FreeRTOS/portable/MemMang",
+          "../os/FreeRTOS/portable/RVDS/ARM_CM4F",
+          "../os/FreeRTOS",
+          "../os/os_warpper",
+          "../test",
+          "../tool",
+          "../utility",
+          "../core/STM32F4xx_HAL_Driver/Inc",
+          "../core/STM32F4xx_HAL_Driver/Src"
+        ],
+        "defineList": [
+          "USE_HAL_DRIVER",
+          "STM32F407xx"
+        ]
+      },
+      "builderOptions": {
+        "GCC": {
+          "version": 5,
+          "beforeBuildTasks": [],
+          "afterBuildTasks": [],
+          "global": {
+            "$float-abi-type": "softfp",
+            "output-debug-info": "enable",
+            "misc-control": "--specs=nosys.specs --specs=nano.specs"
+          },
+          "c/cpp-compiler": {
+            "language-c": "c11",
+            "language-cpp": "c++11",
+            "optimization": "level-debug",
+            "warnings": "all-warnings",
+            "one-elf-section-per-function": true,
+            "one-elf-section-per-data": true,
+            "C_FLAGS": "",
+            "CXX_FLAGS": ""
+          },
+          "asm-compiler": {
+            "ASM_FLAGS": ""
+          },
+          "linker": {
+            "output-format": "elf",
+            "remove-unused-input-sections": true,
+            "LD_FLAGS": "",
+            "LIB_FLAGS": "-lm"
+          }
+        },
+        "AC5": {
+          "version": 4,
+          "beforeBuildTasks": [],
+          "afterBuildTasks": [],
+          "global": {
+            "output-debug-info": "enable"
+          },
+          "c/cpp-compiler": {
+            "optimization": "level-0",
+            "one-elf-section-per-function": true,
+            "c99-mode": true,
+            "C_FLAGS": "--diag_suppress=1 --diag_suppress=1295",
+            "CXX_FLAGS": "--diag_suppress=1 --diag_suppress=1295",
+            "warnings": "unspecified"
+          },
+          "asm-compiler": {},
+          "linker": {
+            "output-format": "elf",
+            "ro-base": "0x08000000",
+            "rw-base": "0x20000000"
+          }
+        }
+      }
+    }
+  },
+  "version": "3.6"
+}
